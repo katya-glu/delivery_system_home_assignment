@@ -8,22 +8,22 @@ courier_id = random.randint(0, courier_id_max_val)
 # value for each day of the week is a list of timeslot lists, each timeslot list contains starting time, end time and list of supported addresses
 available_timeslots_dict = \
     {"courier_id": courier_id, "timeslots":
-        {"14/08/2021": [["08:00", "10:00", ["Tel Aviv-Yafo", "Ramat Gan"]],
+        {"21/08/2022": [["08:00", "10:00", ["Tel Aviv-Yafo", "Ramat Gan"]],
                         ["10:00", "12:00", ["Tel Aviv-Yafo", "Ramat Gan", "Bnei Brak"]],
                         ["12:00", "14:00", ["Ramat Gan", "Bnei Brak", "Petah Tikva"]], ["14:00", "16:00", ["Bnei Brak", "Petah Tikva", "Rosh Haayin"]],
                         ["16:00", "18:00", ["Bnei Brak", "Petah Tikva", "Tel Aviv-Yafo"]]],
-        "15/08/2021":  [["08:00", "10:00", ["Tel Aviv-Yafo", "Ramat Gan"]], ["10:00", "12:00", ["Tel Aviv-Yafo", "Ramat Gan", "Bnei Brak"]],
+        "22/08/2022":  [["08:00", "10:00", ["Tel Aviv-Yafo", "Ramat Gan"]], ["10:00", "12:00", ["Tel Aviv-Yafo", "Ramat Gan", "Bnei Brak"]],
                         ["12:00", "14:00", ["Ramat Gan", "Bnei Brak", "Petah Tikva"]], ["14:00", "16:00", ["Bnei Brak", "Petah Tikva", "Rosh Haayin"]]],
-        "16/08/2021":  [["10:00", "12:00", ["Tel Aviv-Yafo", "Ramat Gan"]],
+        "23/08/2022":  [["10:00", "12:00", ["Tel Aviv-Yafo", "Ramat Gan"]],
                         ["12:00", "14:00", ["Tel Aviv-Yafo", "Ramat Gan"]], ["14:00", "16:00", ["Bnei Brak", "Tel Aviv-Yafo", "Ramat Gan"]],
                         ["16:00", "18:00", ["Bnei Brak", "Petah Tikva", "Tel Aviv-Yafo"]]],
-        "17/08/2021":  [["10:00", "12:00", ["Tel Aviv-Yafo", "Ramat Gan"]],
+        "24/08/2022":  [["10:00", "12:00", ["Tel Aviv-Yafo", "Ramat Gan"]],
                         ["12:00", "14:00", ["Tel Aviv-Yafo", "Ramat Gan"]], ["14:00", "16:00", ["Bnei Brak", "Tel Aviv-Yafo", "Ramat Gan"]],
                         ["16:00", "18:00", ["Bnei Brak", "Petah Tikva", "Tel Aviv-Yafo"]]],
-        "18/08/2021":  [["08:00", "10:00", ["Tel Aviv-Yafo", "Ramat Gan"]], ["10:00", "12:00", ["Tel Aviv-Yafo", "Ramat Gan"]],
+        "25/08/2022":  [["08:00", "10:00", ["Tel Aviv-Yafo", "Ramat Gan"]], ["10:00", "12:00", ["Tel Aviv-Yafo", "Ramat Gan"]],
                         ["12:00", "14:00", ["Tel Aviv-Yafo", "Ramat Gan"]], ["14:00", "16:00", ["Bnei Brak", "Tel Aviv-Yafo", "Ramat Gan"]],
                         ["16:00", "18:00", ["Bnei Brak", "Petah Tikva", "Tel Aviv-Yafo"]]],
-        "19/08/2021":  [["08:00", "10:00", ["Tel Aviv-Yafo", "Ramat Gan"]], ["10:00", "12:00", ["Tel Aviv-Yafo", "Ramat Gan"]],
+        "26/08/2022":  [["08:00", "10:00", ["Tel Aviv-Yafo", "Ramat Gan"]], ["10:00", "12:00", ["Tel Aviv-Yafo", "Ramat Gan"]],
                         ["12:00", "14:00", ["Tel Aviv-Yafo", "Ramat Gan"]]]
         }
     }
