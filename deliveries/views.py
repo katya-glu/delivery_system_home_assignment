@@ -2,7 +2,8 @@ from django.http import HttpResponse
 from django.http import JsonResponse
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from .service_functions import *
+from .user_and_timeslots_service_functions import *
+from .deliveries_service_functions import *
 from datetime import datetime, timedelta
 
 
